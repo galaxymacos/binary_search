@@ -93,7 +93,7 @@ int finding_ceil(T arr[], int l, int r, T target, int& ceil)
 	}
 	else
 		finding_ceil(arr, mid + 1, r, target, ceil);
-}
+ }
 
 template <class T>
 int binary_search_ceil(T arr[], int n, T target)
